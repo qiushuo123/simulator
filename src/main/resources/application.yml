@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/spring_cloud?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://172.20.16.45:3306/spring_cloud?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false&serverTimezone=UTC
     username: root
     password: 123456
 
@@ -16,5 +16,3 @@ server:
 # swagger config
 swagger:
   enabled: true
-
-msg-host: http://172.20.16.243:3456/sendSms
